@@ -1,0 +1,85 @@
+:root {
+    --background-color: #CEE0DC;
+    --supp-color: #212529;
+    --form-color: #343A40;
+}
+
+@media screen and (min-width:390px) and (max-width:953px){
+
+.App {
+    max-height: 100vh;
+    // border: solid red;
+    position: relative;
+    // background-color: hsl(0, 0%, 95%);
+    // background-color: #CEE0DC;
+    background-color: white;
+}
+
+#addTask {
+    width: 150px;
+    height: 35px;
+    margin: 2.5rem 1rem 1.2rem 1rem;
+    display: flex;
+    // padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    // color:#bbb;
+    color: #333;
+    // border:solid hsl(0, 100%, 30%);
+    border: none;
+    border-radius: 10px;
+    // border-bottom: solid #272C38 1px;
+    background:hsl(16,80%,45%);
+    // background-color: #272C38;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 1px 6px 11px -4px rgba(0,0,0,0.6);
+    
+    &:active {
+        background-color: hsl(16,80%,55%);
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    }
+}
+}
+
+@media screen and (min-width:954px){
+    
+    
+    .App {
+    // background: hsl(16,80%,55%);
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#addTask {
+    width: 75px;
+    height: 75px;
+    margin: 2.5rem 1rem 1.2rem 1rem;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    // padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    // color:#bbb;
+    // border:solid hsl(0, 100%, 30%);
+    border: none;
+    border-radius: 50%;
+    // border-bottom: solid #272C38 1px;
+    background:hsl(16,80%,25%);
+    color: #eee;
+    // background-color: #272C38;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 6px 11px -4px rgba(0,0,0,0.6);
+    
+    &:active {
+        background-color: hsl(16,80%,55%);
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+}
+
+}
